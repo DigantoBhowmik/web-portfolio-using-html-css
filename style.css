@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 25px;
+}
+.name{
+    color: rgb(151, 111, 111);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.half-width-2nd img{
+    width: 80%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    height: 550px;
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+
+.mid-banner{
+    height: 600px;
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    
+}
+.half-width-2nd{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    padding: 50px ;
+    
+}
+.half-width-2nd-p{
+    width: 40%;
+    float: left;
+    
+    padding: 200px 0px 0px 0px;
+    
+}
+.experience-area{
+    height: 600px;
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    
+}
+.full-stack{
+    box-shadow: 10px 10px 40px gray;
+    border: 5px;
+    height: 300px;
+    padding-right: 10px;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 5px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, rgb(65, 44, 41));
+    
+    border-image-slice: 1;
+}
+
+#dev-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
